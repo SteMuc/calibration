@@ -17,7 +17,7 @@ find_package(catkin REQUIRED
 
 ## System dependencies are found with CMake's conventions
 #find_package(Boost REQUIRED COMPONENTS system)
-# find_package(Eigen REQUIRED)
+find_package(Eigen3 REQUIRED)
 # set(EIGEN_DIR "/../eigen-3.3.7")
 
 ## Uncomment this if the package has a setup.py. This macro ensures
@@ -99,9 +99,8 @@ catkin_package(
 ## Specify additional locations of header files
 ## Your package locations should be listed before other locations
 include_directories(include
-#   ${EIGEN_DIR}
   ${catkin_INCLUDE_DIRS}
-  include/eigen-3.3.7
+  /usr/include/eigen3
 )
 
 ## Declare a cpp library
