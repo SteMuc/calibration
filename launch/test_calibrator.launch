@@ -37,8 +37,8 @@
   	<group ns="aruco_CT_1">
 		<param name="tf_prefix" value="aruco_CT_1"></param>
   		<include file="$(find calibration)/launch/single.launch">
-    		<arg name="markerId"        	value="57"/>
-			<arg name="markerSize"      	value="0.122"/>   
+    		<arg name="markerId"        	value="8"/>
+			<arg name="markerSize"      	value="0.120"/>   
               <!-- 0.1225 is for camera serial  920312070833 -->
             
     		<arg name="marker_frame"    	value="aruco_CT_1/aruco_marker_frame"/>
